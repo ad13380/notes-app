@@ -3,7 +3,7 @@
 (function(exports) {
   function ModelView(noteListApp) {
     this.noteListApp = noteListApp;
-  };
+  }
 
   ModelView.prototype.displayView = function() {  
     if (this.noteListApp.noteApp == null) {
